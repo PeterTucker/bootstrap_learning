@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Bootstap Final Exam - Section 2 - Visibility</title>
+	
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/bootstrap.css" /><!-- THEME -->
+
+	</head>
+	<body>
+	
+	<!--
+	Question 2
+	You have the following HTML on a page that uses Bootstrap:
+
+	<h2>Large header</h2>
+
+	You need to ensure the header does not display on phones with a screen size smaller than 768px.
+
+	What class should you add to the element? The solution must use the minimum number of classes.
+	
+	A: hidden-xs
+	-->
+	<div class="container">
+		<h2 class="hidden-xs"> Hello World </h2>
+	</div>
+	
+	
+	<div class="form-group has-error">
+	  <label for="address" class="control-label col-md-3">Address:</label>
+	  <div class="col-md-6">
+	    <input type="text" name="address" id="address" class="form-control" />
+	    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+	  </div>
+	</div>
+	
+	<!-- SCRIPTS -->
+	<script type="text/javascript" src="js/jquery-2.1.3.js" ></script>
+	<script type="text/javascript" src="js/bootstrap.js" ></script>
+
+	</body>
+</html>
+
+
+<!--
+
+Section 2:
+######################################
+
+Question 1
+You are creating an HTML page that will use Bootstrap.
+
+You need to add references to all of the files needed in order to ensure all of Bootstrap's features are available. The solution must minimize the amount of data sent to the client.
+
+What files should you add references to in the HTML page? (Choose three. Each answer represents part of the solution.)
+
+[] bootstrap.css
+[X] bootstrap.min.css
+[] bootstrap.css.map
+[] bootstrap.js
+[X] bootstrap.min.js
+[] jquery-2.1.3.js
+[X] jquery-2.1.3.min.js
+######################################
+
+Question 3
+
+You are creating an HTML page that will use Bootstrap. You have information to display to the user that is broken down into sections.
+
+You need to ensure the user has the ability to click on a link to navigate directly to the desired section, while also being able to scroll through the data.
+
+What Bootstrap feature should you use?
+[] Carousel
+[] Tabs
+[X] Scrollspy
+[] Accordion
+######################################
+
+Question 4
+
+You have an HTML page that uses Bootstrap. You add a navbar to the page.
+
+You need to ensure the navbar displays at the bottom of the page, and will always be visible when the user scrolls.
+
+What class should you add to the nav element?
+
+A: navbar-fixed-bottom
+
+
+######################################
+
+Question 5
+
+You create an HTML page that uses Bootstrap and add a form. You add the following HTML:
+
+<div class="form-group has-error">
+  <label for="address" class="control-label col-md-3">Address:</label>
+  <div class="col-md-6">
+    <input type="text" name="address" id="address" class="form-control" />
+    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+  </div>
+</div>
+
+You need to ensure the remove glyphicon displays as part of the input control to provide validation.
+
+What class should you add to the first div tag?
+A: has-feedback
+
+######################################
+-->
